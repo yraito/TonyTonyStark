@@ -12,7 +12,7 @@ mod HelloStarknet {
     fn Say_Hello(message: felt252) {
         let caller = get_caller_address();
         Hello(caller, message);
-        Hello(caller, message);
+    
     
 
     }
